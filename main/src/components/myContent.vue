@@ -6,7 +6,7 @@
             </div>
             <div class="search-bar">
                 <img src="../assets/img/magnifying_glass.jpg">
-                <input type="text" id="search-input" @keyup.enter="addMessage" v-model="txtInput">
+                <input type="text" id="search-input" @keyup.enter="addMessage" v-model="txtInput" data-toggle="tooltip" data-placement="bottom" title="Search">
                 <img src="../assets/img/mic.png" data-toggle="tooltip" data-placement="bottom" title="Search by voice">
             </div>
             <div class="buttons" id="search">
