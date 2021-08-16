@@ -10,15 +10,7 @@
             <img src="../assets/img/dots.svg">
         </div>
         <div class="img-avatar">
-            <div id="app">
-                <b-dropdown no-caret>
-                    <template #button-content>
-                        <img src="../assets/img/avatar.jpg">
-                    </template>
-                    <b-dropdown-item>First Action</b-dropdown-item>
-                    <b-dropdown-item>Second Action</b-dropdown-item>
-                </b-dropdown>
-                </div>
+            <img src="../assets/img/avatar.jpg">
         </div>
     </div>
 </template>
