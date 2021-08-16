@@ -10,18 +10,15 @@
             <img src="../assets/img/dots.svg">
         </div>
         <div class="img-avatar">
-            <div class="dropdown">
-                <a href="#" id="imageDropdown" data-toggle="dropdown">
-                    <img src="../assets/img/avatar.jpg">
-                </a>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="imageDropdown">
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Menu item 1</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Menu item 2</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Menu item 3</a></li>
-                <li role="presentation" class="divider"></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Menu item 4</a></li>
-            </ul>
-            </div>
+            <div id="app">
+                <b-dropdown no-caret>
+                    <template #button-content>
+                        <img src="../assets/img/avatar.jpg">
+                    </template>
+                    <b-dropdown-item>First Action</b-dropdown-item>
+                    <b-dropdown-item>Second Action</b-dropdown-item>
+                </b-dropdown>
+                </div>
         </div>
     </div>
 </template>

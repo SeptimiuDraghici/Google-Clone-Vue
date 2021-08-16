@@ -46,7 +46,8 @@ export default {
     },
     methods: {
         addMessage() {
-            window.location.href = 'https://www.google.com/search?q=' + this.txtInput;
+            if(this.txtInput != '')
+                window.location.href = 'https://www.google.com/search?q=' + this.txtInput;
         }
     }
 }
