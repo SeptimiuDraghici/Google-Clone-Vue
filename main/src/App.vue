@@ -38,7 +38,7 @@ html, body {
 }
 
 @media only screen and (max-width: 600px) {
-  .wrapper{
+  .wrapper {
     width: 100%;
   }
   .search-bar {

@@ -45,7 +45,7 @@ export default {
         }
     },
     methods: {
-        addMessage(){
+        addMessage() {
             window.location.href = 'https://www.google.com/search?q=' + this.txtInput;
         }
     }
